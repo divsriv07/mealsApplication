@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Meal App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/e6f12e5790.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="background-image">
+       <img src="./assets/over-table-food-spread.jpeg"  alt="" />
+    </div>
+
+
+    <div id="navbar">
+        <a href="index.html">
+            <div class="top-logo" style="font-family: sans-serif; ">
+                FoodMato
+               
+            </div>
+        </a>
+
+        <div class="" id="search-bar">
+            <div class="icon">
+                <i class="fa-solid fa-search "></i>
+            </div>
+            <div class="new-search-input">
+                <form onkeyup="showMealList()">
+                    <input id="search-input" type="text" placeholder="Search your favourite recipe" />
+                </form>
+            </div>
+        </div>
+
+       
+
+        <div class="side-drawer">
+
+            <div id="toggle-sidebar">
+                
+                <i class="fa-solid fa-bars"></i>
+               
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div id="main">
+
+        <div id="sidebar">
+            <div class="top_gap"></div>
+            <hr />
+            <div class="title small">
+                Favourites
+            </div>
+            <hr />
+            <div id="fav">
+                <!-- Favourite items using script file -->
+
+            </div>
+
+        </div>
+        <div id="flex-box">
+
+
+
+            <div class="container">
+                
+                <div class="header">
+                    <div class="title" style="font-family:Arial, Helvetica, sans-serif; text-shadow: 3px -2px 5px black;">
+                        FoodMato
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Recipe cards using script file -->
+
+            <div id="cards-holder" class="">
+
+
+                <!-- using script file -->
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
